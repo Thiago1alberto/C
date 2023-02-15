@@ -1,1 +1,1 @@
-# C
+# Pequenos sistemas em C.
