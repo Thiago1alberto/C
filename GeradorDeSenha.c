@@ -19,12 +19,12 @@ int main() {
         if (type == 0) {
             password[i] = 'a' + rand() % 26;
         } else if (type == 1) {
-
             password[i] = 'A' + rand() % 26;
         } else {
             password[i] = '0' + rand() % 10;
         }
     }
+    
     password[length] = '\0';
     printf("A senha gerada é: %s\n", password);
     return 0;
